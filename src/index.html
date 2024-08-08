@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,38 @@
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-    <h1>ola garotinho</h1>
+        <section class="aniversario">
+            <h1 class="aniversario-title">Aniversario João Gustavo</h1>
+            <p class="aniversario-subtitle">Venha jogar um futebol entre amigos e fazer uma resenha após o jogo.
+            </p>
+        <div class="aniversario-horas">
+            <div class="aniversario-horas-container">
+            <h2 class="aniversario-horas-container-titulo">Dias</h2>
+            <span class="aniversario-horas-container-numeros" id="days"></span>
+        </div>
+        <div class="aniversario-horas-container">
+            <h2 class="aniversario-horas-container-titulo">Horas</h2>
+            <span class="aniversario-horas-container-numeros" id="hours"></span>
+        </div>
+        <div class="aniversario-horas-container">
+            <h2 class="aniversario-horas-container-titulo">Minutos</h2>
+            <span class="aniversario-horas-container-numeros" id="minutes"></span>
+        </div>
+        <div class="aniversario-horas-container">
+            <h2 class="aniversario-horas-container-titulo">Segundos</h2>
+            <span class="aniversario-horas-container-numeros" id="seconds"></span>
+        </div>
+    </div>
+        <form class="aniversario-form">
+            <h3 class="aniversario-form-title">Coloque seu nome e telefone, venha participar da resenha.</h3>
+            <div class="aniversario-form-container">
+                <input class="aniversario-form-container-name" type="name" placeholder="Seu nome" required />
+                <input class="aniversario-form-container-tel" type="tel" placeholder="Seu telefone" required />
+                <button class="aniversario-form-container-button" type="submit">Inscreva-se</button>
+            </div>
+        </form>
+        </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
