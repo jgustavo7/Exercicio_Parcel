@@ -89,6 +89,7 @@ body {
     height: 28px;
     margin-bottom: 2px;
     margin-top: 14px;
+    border-radius: 4px;
 }
 
 .aniversario-form-container-tel {
@@ -96,6 +97,7 @@ body {
     height: 28px;
     margin-top: 4px;
     margin-bottom: 4px;
+    border-radius: 4px;
 }
 
 .aniversario-form-container-button {
@@ -112,5 +114,76 @@ body {
     &:hover {
         background-color: lighten(rgb(42, 42, 163), 10%);
     }
+}
 
+
+    @media (max-width: 767px) {
+        body {
+            width: 100%;
+            background-size: cover;
+        }
+
+    .aniversario {
+        &-title {
+            display: block;
+            font-size: 24px;
+        }
+
+        &-subtitle {
+            display: flex;
+            font-size: 22px;
+            text-align: center;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
     }
+
+    .aniversario-horas {
+        display: block;
+        text-align: center;
+        &-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+
+            &-titulo {
+                display: grid;
+                grid-template-columns: 1fr;
+                font-size: 32px;
+            }
+
+            &-numeros {
+                display: grid;
+                grid-template-columns: 1fr;
+                font-size: 32px;
+            }
+        }
+    }
+
+    .aniversario-form-container-name {
+            display: block;
+            width: 330px;
+            align-items: center;
+            margin-left: 24px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .aniversario-form-container-tel {
+            display: block;
+            width: 330px;
+            text-align: center;
+            align-items: center;
+            margin-left: 24px;
+            border-radius: 4px;
+        }
+
+        .aniversario-form-container-button {
+            display: block;
+            width: 330px;
+            text-align: center;
+            margin-left: 24px;
+            border-radius: 4px;
+        }
+    }
+
