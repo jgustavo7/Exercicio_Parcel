@@ -90,14 +90,20 @@ body {
     margin-bottom: 2px;
     margin-top: 14px;
     border-radius: 4px;
+    border: none;
+    text-align: center;
+    align-items: center;
 }
 
 .aniversario-form-container-tel {
+    text-align: center;
+    align-items: center;
     width: 630px;
     height: 28px;
     margin-top: 4px;
     margin-bottom: 4px;
     border-radius: 4px;
+    border: none;
 }
 
 .aniversario-form-container-button {
@@ -167,6 +173,7 @@ body {
             margin-left: 24px;
             border-radius: 4px;
             text-align: center;
+            border: none;
         }
 
         .aniversario-form-container-tel {
@@ -176,6 +183,7 @@ body {
             align-items: center;
             margin-left: 24px;
             border-radius: 4px;
+            border: none;
         }
 
         .aniversario-form-container-button {
